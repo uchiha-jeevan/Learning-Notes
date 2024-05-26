@@ -1,0 +1,28 @@
+
+#Date : 26/05/2024
+---- Git-Notes ----
+
+git --version                 => to check git version
+git config                    => to view git congig
+git config --global --list    => will list all users
+
+-> To set user to global 
+
+git config --global user.name "user_name"
+git config --global user.email "User_email@gmail.com"
+
+
+git init         => will creare empty local git reprositary
+    by default git init will give you master branch.
+  ' Initialized empty Git repository in D:/New Experiments/images/.git/ '
+
+git init -b main => will create git reporisatory with main branch
+git status       => shows branch , commits and other details.
+
+git add file_name.html          => This will add file to stg env
+git rm --cached file_name.html  => This will remove file that is in stg
+git restore index.html          => This will restore all the changes to before.
+git commit -m 'commit msg '     => This will commit the changes [ you can't directly commit, first stage then commit ]
+
+git log                         => to check or see previuus commits
+
