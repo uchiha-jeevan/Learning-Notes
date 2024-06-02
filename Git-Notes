@@ -26,3 +26,14 @@ git commit -m 'commit msg '     => This will commit the changes [ you can't dire
 
 git log                         => to check or see previuus commits
 
+
+#Date : 02/06/2024
+
+git diff                   => will show what exactly changed in the code
+git diff --staged          => will show chnges done that are in staged [ if done git add , and needed to see change's use this ]
+git add *                  => will add all changes to stg.
+git add .                  => will add all changes
+git rm --cached file_name  => will delete file that is commited from git then delete locally [ never delete locally after commit , it'll
+                                                        be in git , as it is already commited ]
+
+
