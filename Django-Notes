@@ -1,0 +1,18 @@
+Date : 04/06/2024
+
+django-admin startproject p_name :
+django-admin startapp app_name   :
+
+py manage.py runserver           :
+
+=> Include this in Project urls.py file to use app urls.py file to render.
+    urlpatterns = [
+        path('',include('mainapp.urls')),
+
+=> To use html code files add this in settings.py 
+       create code folder in project folder.
+      'DIRS': [os.path.join(BASE_DIR,'codes')],
+
+=> url connecting in django
+  - in html <a>tag : <a href="{% url 'home' %}">Check codes</a>
+  - in urls.py     : path('home',views.home,name='home')
