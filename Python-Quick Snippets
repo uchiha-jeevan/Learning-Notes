@@ -1,0 +1,7 @@
+
+-----------------------------------------
+import itertools
+l=[1,2,3,4]
+# will create a list of all permutations of list (1*2*3*4=24)
+a=list(itertools.permutations(l))
+----------------------------------------
