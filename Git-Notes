@@ -36,4 +36,34 @@ git add .                  => will add all changes
 git rm --cached file_name  => will delete file that is commited from git then delete locally [ never delete locally after commit , it'll
                                                         be in git , as it is already commited ]
 
+#Date : 09/06/2024
+
+# First add or link your device to git by generating key from your device and add that key to ssh keys in github.
+# above method not required everytime authentication .
+#https method requires everytime authentication.
+
+ssh-keygen -o        => to generate key , run this is cmd , copy key from .pub file and add to git ssh keys.
+git remote add origin (git@github.com:uchiha-jeevan/Practice.git) => Paste git repo link to connect local to remote.
+git branch -M main                => to change branch to  main.
+git push -u origin main/master    => this will push code to remote repo [ use main/master correctly for branch ]
+git push origin main              => can use after first push.
+
+== Tags ==
+tags two type 1. annotation tags , 2.lightweight tags
+1. annotation  => to give some detail version details
+2. lightweight => simple version tag 
+
+git tag                           => to see all named tags.
+git tag -a v1.0.0 -m " Message "  => '-a' for annotation , '-m' message ,v1.0.0 can be version ,can write anything.
+git push origin v10.0             => to push version tag to remote.
+git show v10.0                    => this will show log of that tag.
+git clone link                    => to clone a repo from github , link paste https link here.
+
+
+
+
+
+
+
+
 
