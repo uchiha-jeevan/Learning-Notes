@@ -1,0 +1,4 @@
+Time complexity : Time complexity is not time taken to execute the code but the no of times a statement executes in code.
+
+Actual time required to execute code is machine depending. so instead of measuring actual time required, we consider how many times each statement executes. 
+
